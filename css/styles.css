@@ -37,7 +37,8 @@
 
 /* list */
 .list 
-    {list-style: none;}
+    {list-style: none;
+      }
 /* hero */
 .hero 
     {background-color: #2F303A;text-align: center;}
@@ -99,12 +100,17 @@
     text-align: center;
     letter-spacing: 0.03em;}
 /*adress*/
+address{font-style: normal; }
+
 .adress {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color:  var(--white-text-color);
-    text-decoration: none;}
+    text-decoration: none;
+}
+   
+    
 /* contact */
 .contact-info {
     color: rgba(255, 255, 255, 0.6);
