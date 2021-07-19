@@ -133,7 +133,7 @@ address{font-style: normal; }
 { color: #212121;}
 /*header*/
 .header
-    {background-color:#FFFFFF;}
+    {background-color: var( --white-text-color);}
 /*footer*/
 .footer {background-color: #2F303A}
 
